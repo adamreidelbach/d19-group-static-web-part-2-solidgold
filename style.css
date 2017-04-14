@@ -214,11 +214,16 @@ Adam's Additional Styling
 /**************************************
 	CONTACT PAGE
 **************************************/
+.contact{
+	max-width: 90%;
+	margin: 0 auto;
+}
 #primary p{
 	font-weight: 600;
 }
 #primary h2{
-	border-bottom: 2px solid black
+	border-bottom: 2px solid black;
+	text-align: center;
 }
 .contactInfo {
   list-style: none;
@@ -237,13 +242,14 @@ Adam's Additional Styling
 	color: black;
 }
 #primary {
-   width: 50%;
+   width: 45%;
    float: left;
+
 }
 #secondary {
   width: 40%;
   float: right;
-  margin-right: -20%;
+  margin-right: -250px;
 }
 .contactInfo li.phone a{
   background-image:  url('images/phone.png');
@@ -311,3 +317,24 @@ Adam's Additional Styling
 #test{
 	margin: 0 auto;
 }
+
+.buyButton{
+	color: black;
+	background-color: gold;
+	border-radius: 80%;
+}
+/*
+.addButton{
+	color: black;
+	background-color: gold;
+	border-radius: 80%;
+}
+*/
+.cart{
+	width: 15%;
+	margin-bottom: -10px;
+}
+.buy{
+	width: 12%;
+}
+
