@@ -105,6 +105,38 @@ nav{
 /**************************************
 	CAREER PAGE
 **************************************/
+#joblisting {
+	padding-top: 5em;
+}
+
+.listing {
+	width: 44%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-left:10px;	
+}
+
+.jobreq {
+	max-width: 30%
+}
+
+.listing h4 {
+	text-decoration: underline;
+}
+
+.jobpics {
+	height:200px; 
+	width:200px;
+}
+
+.desc{
+	margin-top: 5em;
+	float:right;
+	border:5px black;
+}
+
+
 
 /**************************************
 	PRODUCT PAGE
