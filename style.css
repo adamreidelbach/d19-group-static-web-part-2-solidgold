@@ -54,6 +54,87 @@ nav{
 /**************************************
 	ABOUT PAGE
 **************************************/
+#main {
+	background-color: #E8DFCF
+}
+#main img {
+	padding-left: 5%;
+	padding-top: 4%;
+	margin-bottom: 4%;
+
+}
+.little {
+	width: 25%;
+	float: right;
+	line-height: 2em;
+	padding-right: 5%;
+	padding-top: 8%;
+}
+.little2 {
+	width: 25%;
+	float: left;
+	line-height: 2em;
+	padding-left: 70px;
+}
+.bold {
+	font-weight: 700;
+}
+.h2 {
+	font-family: verdana;
+	margin-bottom: -20px;
+	padding-top: 20px;
+	line-height: 1.5em;
+	padding-left: 5%;
+}
+.h2 span {
+	color: #7E8B8D;
+}
+#kid {
+	margin-left: 34%;
+	margin-top: -28%;
+}
+.pas {
+	background-color: #9A8777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
