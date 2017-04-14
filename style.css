@@ -60,7 +60,46 @@ nav{
 /**************************************
 	CONTACT PAGE
 **************************************/
-
+#primary p{
+	font-weight: 600;
+}
+#primary h2{
+	border-bottom: 2px solid black
+}
+.contactInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contactInfo a {
+	text-decoration: none;
+	display: block;
+	min-height: 30px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0px 10px 10px 30px;
+	margin:0 0 10px;
+	color: black;
+}
+#primary {
+   width: 50%;
+   float: left;
+}
+#secondary {
+  width: 40%;
+  float: right;
+  margin-right: -20%;
+}
+.contactInfo li.phone a{
+  background-image:  url('images/phone.png');
+}
+.contactInfo li.email a{
+  background-image: url('images/email.png');
+}
+.contactInfo li.social a{
+  background-image: url('images/facebook.png');
+}
 
 
 /**************************************
@@ -77,6 +116,7 @@ nav{
 	display: inline-block;
 	text-align: center;
 	padding-top: 100px;
+
 }
 .image-size{
 	height: 50%;
