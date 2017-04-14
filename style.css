@@ -50,10 +50,164 @@ nav{
 	padding-left: 15px;
 }
 
+/*************************
+Adam's Additional Styling
+*************************/
+
+.wrapper-main{
+	width: 90%;
+	margin: 0 auto;
+	border-top: 1px solid lightgrey;
+}
+
+.content-main{
+	float: left;
+	width: 60%;
+	margin-top: 20px;
+}
+
+.main-img {
+	height: 90%;
+	width: 90%;
+	margin: 25px;
+}
+
+.aside-main {
+	float: left;
+	width: 39%;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	color: grey;
+	margin-top: 20px;
+}
+
+.imgs-main {
+	height: 190px;
+	display: inline;
+	border: 1px solid lightgrey;
+}
+
+.shop-now {
+	clear: both;
+	text-align: center;
+}
+
+.shop-button {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.5em;
+	margin-top: 25px;
+	padding: 6px 12px;
+	text-transform: uppercase;
+	background: #555;
+	color: #fff;
+	border: none;
+	letter-spacing: .1em;
+}
+
+.secondary-content {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	margin-top: 50px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	color: grey;
+	padding-bottom: 5px;
+}
+
+.secondary-content h3 {
+	font-size: 1.3em;
+}
+
+.secondary-content p {
+	font-size: 1.2em;
+	letter-spacing: .2em;
+}
+
 
 /**************************************
 	ABOUT PAGE
 **************************************/
+#main {
+	background-color: #E8DFCF
+}
+#main img {
+	padding-left: 5%;
+	padding-top: 4%;
+	margin-bottom: 4%;
+
+}
+.little {
+	width: 25%;
+	float: right;
+	line-height: 2em;
+	padding-right: 5%;
+	padding-top: 8%;
+}
+.little2 {
+	width: 25%;
+	float: left;
+	line-height: 2em;
+	padding-left: 70px;
+}
+.bold {
+	font-weight: 700;
+}
+.h2 {
+	font-family: verdana;
+	margin-bottom: -20px;
+	padding-top: 20px;
+	line-height: 1.5em;
+	padding-left: 5%;
+}
+.h2 span {
+	color: #7E8B8D;
+}
+#kid {
+	margin-left: 34%;
+	margin-top: -28%;
+}
+.pas {
+	background-color: #9A8777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -111,6 +265,38 @@ nav{
 /**************************************
 	CAREER PAGE
 **************************************/
+#joblisting {
+	padding-top: 5em;
+}
+
+.listing {
+	width: 44%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-left:10px;	
+}
+
+.jobreq {
+	max-width: 30%
+}
+
+.listing h4 {
+	text-decoration: underline;
+}
+
+.jobpics {
+	height:200px; 
+	width:200px;
+}
+
+.desc{
+	margin-top: 5em;
+	float:right;
+	border:5px black;
+}
+
+
 
 /**************************************
 	PRODUCT PAGE
@@ -131,6 +317,7 @@ nav{
 #test{
 	margin: 0 auto;
 }
+
 .buyButton{
 	color: black;
 	background-color: gold;
@@ -150,3 +337,4 @@ nav{
 .buy{
 	width: 12%;
 }
+
