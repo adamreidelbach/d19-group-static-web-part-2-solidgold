@@ -1,3 +1,8 @@
+
+
+
+
+
 var products= [{name:"Glass bodied white lamp",description:" All white lamp with a glass body ",price:" $55.00", url: "images/lamp1.jpeg"},
 			{name:"Desk lamp ",description:" Angled neck with platform ",price:" $29.99", url: "images/lamp2.jpeg"},
 			{name:"Table lamp ",description:" All black with a touch activatioin",price:" $18.00", url: "images/lam3.jpeg"},
@@ -16,18 +21,21 @@ for (prop in products) {
                     <h3 class="prodName"> ${products[prop].name} </h3>
                     <p class="prodDesc"> ${products[prop].description}</p>
                     <p class=prodPrice"> ${products[prop].price} </p>
-                    <img src="images/buy.png" class="buy">
+                    <img src="images/buy.png" class="buy ${products[prop].price}">
                     <img src="images/cart.png" class='cart'>
                 </article>`;
     divElement.innerHTML += cards;
 }
-/*
-var buyButton= document.getElementsByClassName('buy')[0];
+
+var buyButton= document.getElementsByClassName('buy');
+console.log(buyButton);
+for (var i=0; i<buyButton.length; i++){
+	buyButton[i].addEventListener('click',(event) =>{
+		console.log(event.currentTarget);
+		console.log(event);
+	});
+}
 
 
-buyButton.addEventListener('click',() =>{
-	console.log('testing');
 
-});
 //<button type="submit" class="addButton"></button>
-*/
