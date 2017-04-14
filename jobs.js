@@ -56,10 +56,3 @@ for (job in jobs) {
     divElement.innerHTML += cards;
 }
 
-
-
-
-
-
-
-	

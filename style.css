@@ -170,47 +170,6 @@ Adam's Additional Styling
 	background-color: #9A8777;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**************************************
 	CONTACT PAGE
 **************************************/
@@ -244,12 +203,13 @@ Adam's Additional Styling
 #primary {
    width: 45%;
    float: left;
+   margin-bottom: 80px;
 
 }
 #secondary {
   width: 40%;
   float: right;
-  margin-right: -250px;
+  margin-right: -80px;
 }
 .contactInfo li.phone a{
   background-image:  url('images/phone.png');
@@ -274,7 +234,7 @@ Adam's Additional Styling
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	margin-left:10px;	
+	margin-left:10px;
 }
 
 .jobreq {
@@ -286,7 +246,7 @@ Adam's Additional Styling
 }
 
 .jobpics {
-	height:200px; 
+	height:200px;
 	width:200px;
 }
 
@@ -314,6 +274,9 @@ Adam's Additional Styling
 	height: 50%;
 	width: 50%;
 }
+.image-size:hover{
+	opacity: .6;
+}
 #test{
 	margin: 0 auto;
 }
@@ -332,9 +295,26 @@ Adam's Additional Styling
 */
 .cart{
 	width: 15%;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 }
 .buy{
-	width: 12%;
+	width: 20%;
+	margin-top: -15px;
 }
 
+/***************************
+	MEADIA QUERY
+**************************/
+
+@media screen and(min-width: 660px){
+		.header{
+			display: inline-block;
+			float: right;
+			font-size: 1.125em;
+			text-align: right;
+			width: 45%;
+		}
+
+
+
+}
