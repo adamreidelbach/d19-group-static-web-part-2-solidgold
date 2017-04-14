@@ -16,6 +16,18 @@ for (prop in products) {
                     <h3 class="prodName"> ${products[prop].name} </h3>
                     <p class="prodDesc"> ${products[prop].description}</p>
                     <p class=prodPrice"> ${products[prop].price} </p>
+                    <img src="images/buy.png" class="buy">
+                    <img src="images/cart.png" class='cart'>
                 </article>`;
     divElement.innerHTML += cards;
 }
+/*
+var buyButton= document.getElementsByClassName('buy')[0];
+
+
+buyButton.addEventListener('click',() =>{
+	console.log('testing');
+
+});
+//<button type="submit" class="addButton"></button>
+*/
