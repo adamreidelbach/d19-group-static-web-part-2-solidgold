@@ -1,0 +1,87 @@
+/***************************
+	INDEX/LANDING PAGE
+***************************/
+*{
+	font-family: Arial;
+}
+html{
+	padding: 0;
+	width: 100%;
+}
+footer{
+	border-top: 2px solid black;
+	text-align: center;
+	clear: both;
+	margin-top: 50px;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+.header{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 150px;
+}
+nav li{
+	list-style: none;
+	display: inline;
+	padding: 10px 15px;
+	border-bottom: 1px solid black;
+}
+nav li:hover{
+	border: white;
+}
+nav{
+	line-height: 150px;
+}
+.header h1{
+	 color:    #D5AD6D ;
+    background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.solid{
+	font-size: 4em;
+	padding-left: 15px;
+}
+
+
+/**************************************
+	ABOUT PAGE
+**************************************/
+
+
+
+/**************************************
+	CONTACT PAGE
+**************************************/
+
+
+
+/**************************************
+	CAREER PAGE
+**************************************/
+
+/**************************************
+	PRODUCT PAGE
+**************************************/
+.articles{
+	color: black;
+	width: 33%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	padding-top: 100px;
+}
+.image-size{
+	height: 50%;
+	width: 50%;
+}
+#test{
+	margin: 0 auto;
+}
